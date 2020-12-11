@@ -20,7 +20,7 @@ export default function SelectedCountry() {
                 selectedContryList.map((country) => (
                     <SelectedListBlock data={country} />
                 ))
-                : <p class="text-center position-absolute noDataFound">No Data Found</p>}
+                : <p class="text-center position-absolute noValueSelected">No Value Selected</p>}
         </>
     )
 }
